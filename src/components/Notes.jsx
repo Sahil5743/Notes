@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { removeFromNotes } from '../Redux/notesSlice';
+import { removeFromNotes } from '../redux/notesSlice';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';

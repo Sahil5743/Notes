@@ -2,7 +2,7 @@ import React, { use } from 'react'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
-import { addToNotes, updateToNotes } from '../Redux/notesSlice';
+import { addToNotes, updateToNotes } from '../redux/notesSlice';
 import { useEffect } from 'react'
 
 
