@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #1f1f1f;
+  padding: 2em;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(255, 127, 17, 0.2);
+}
+
+.read-the-docs {
+  color: #ffa94d;
+}
+
+nav {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #ffa94d;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}

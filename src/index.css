@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #121212;
+  color: #f3f3f3;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #121212;
+  color: #f3f3f3;
+}
+
+a {
+  font-weight: 500;
+  color: #ff7f11;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffa94d;
+}
+
+input,
+textarea {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border: 1px solid #ff7f11;
+}
+
+/* button {
+  background-color: #ff7f11;
+  color: #121212;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffa94d;
+  color: #121212;
+} */
+
+::placeholder {
+  color: #aaaaaa;
+}
